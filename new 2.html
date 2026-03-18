@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Development Service</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Raj Web Solutions</h1>
+<p>We Create Professional Websites for Your Business</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Request Website</a>
+</nav>
+
+<section id="services">
+<h2>Our Services</h2>
+<ul>
+<li>Business Website</li>
+<li>E-commerce Website</li>
+<li>Portfolio Website</li>
+<li>Custom Web Applications</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Request a Website</h2>
+
+<form onsubmit="return submitForm()">
+
+<label>Name</label><br>
+<input type="text" id="name" required><br><br>
+
+<label>Email</label><br>
+<input type="email" id="email" required><br><br>
+
+<label>Business Name</label><br>
+<input type="text" id="business"><br><br>
+
+<label>Website Type</label><br>
+<select id="type">
+<option>E-commerce Website</option>
+<option>Business Website</option>
+<option>Portfolio Website</option>
+</select><br><br>
+
+<label>Your Requirements</label><br>
+<textarea id="message"></textarea><br><br>
+
+<button type="submit">Send Request</button>
+
+</form>
+</section>
